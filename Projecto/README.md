@@ -1,1 +1,0 @@
-Cosas hacerca del projecto
