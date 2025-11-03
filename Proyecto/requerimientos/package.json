@@ -1,14 +1,15 @@
 {
-  "name": "cucumber",
+  "name": "requerimientos",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "devDependencies": {
     "@cucumber/cucumber": "^12.2.0"
   }
