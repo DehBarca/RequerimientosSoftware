@@ -1,0 +1,15 @@
+{
+  "name": "requerimientos-arcana",
+  "version": "1.0.0",
+  "description": "Pruebas BDD para sistema Arcana",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  }
+}
