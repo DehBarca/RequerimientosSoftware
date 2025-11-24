@@ -1,46 +1,54 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-Given('Joey asistió al evento', function () {
+Given('Joey asistió al evento y su asistencia fue registrada', function () {
   return 'pending';
 });
 
-Given('Chandler asistió al evento', function () {
+Given('Chandler asistió al evento y su asistencia fue confirmada', function () {
   return 'pending';
 });
 
-Given('Ross asistió al evento y ya calificó anteriormente', function () {
+Given('Ross ya dejó una calificación previa para ese mismo evento', function () {
   return 'pending';
 });
 
-Given('Rachel asistió al evento', function () {
+Given('Rachel asistió al evento y está en la pantalla de calificación', function () {
   return 'pending';
 });
 
-Given('Phoebe asistió al evento', function () {
+Given('Phoebe asistió al evento y tiene acceso al formulario de reseña', function () {
   return 'pending';
 });
 
-Given('Monica es la organizadora del evento', function () {
+Given('Monica es la organizadora principal del evento', function () {
   return 'pending';
 });
 
-Given('el evento pertenece a Monica', function () {
+Given('el evento está asociado a la cuenta de Monica', function () {
   return 'pending';
 });
 
-Given('existen varias calificaciones previas para el evento', function () {
+Given('el evento tiene varias calificaciones de distintos asistentes', function () {
   return 'pending';
 });
 
-Given('Chandler es el organizador del evento', function () {
+Given('Chandler es el organizador responsable del evento', function () {
   return 'pending';
 });
 
-Given('Joey ya tiene una calificación registrada para ese evento', function () {
+Given('Joey ya dejó una calificación para un evento anterior', function () {
   return 'pending';
 });
 
-Given('el evento no tiene calificaciones previas', function () {
+Given('existen calificaciones previas para el evento', function () {
+  return 'pending';
+});
+
+Given('Rachel está viendo la página del evento', function () {
+  return 'pending';
+});
+
+Given('el evento todavía no tiene ninguna calificación registrada', function () {
   return 'pending';
 });
 
@@ -52,7 +60,7 @@ When('Chandler intenta calificar el evento con 6 estrellas', function () {
   return 'pending';
 });
 
-When('Ross intenta calificar el mismo evento de nuevo', function () {
+When('Ross intenta enviar una nueva calificación para el mismo evento', function () {
   return 'pending';
 });
 
@@ -60,7 +68,7 @@ When('Rachel intenta enviar su calificación por primera vez', function () {
   return 'pending';
 });
 
-When('Phoebe envía una calificación con un comentario poético', function () {
+When('Phoebe envía una calificación con un comentario adicional', function () {
   return 'pending';
 });
 
@@ -68,11 +76,11 @@ When('Monica intenta calificar su propio evento', function () {
   return 'pending';
 });
 
-When('Chandler abre el perfil del organizador del evento', function () {
+When('Chandler consulta su perfil de organizador en Arcana', function () {
   return 'pending';
 });
 
-When('Joey intenta editar su calificación anterior', function () {
+When('Joey intenta modificar la calificación que dejó para ese evento', function () {
   return 'pending';
 });
 
@@ -80,46 +88,46 @@ When('Rachel envía una nueva calificación válida', function () {
   return 'pending';
 });
 
-When('Ross visita la página del evento', function () {
+When('Ross abre la página de detalle de ese evento', function () {
   return 'pending';
 });
 
-Then('el sistema guarda la calificación de Joey correctamente', function () {
+Then('el sistema guarda la calificación de Joey para ese evento', function () {
   return 'pending';
 });
 
-Then('el sistema rechaza la calificación fuera de rango', function () {
+Then('el sistema rechaza la calificación por estar fuera del rango permitido', function () {
   return 'pending';
 });
 
-Then('el sistema no permite calificar el evento más de una vez', function () {
+Then('el sistema no permite registrar una segunda calificación para el mismo usuario', function () {
   return 'pending';
 });
 
-Then('el sistema muestra un mensaje de confirmación de envío', function () {
+Then('el sistema muestra un mensaje de confirmación antes de guardar la calificación', function () {
   return 'pending';
 });
 
-Then('el sistema registra el comentario opcional junto con la calificación', function () {
+Then('el sistema guarda la calificación junto con el comentario opcional', function () {
   return 'pending';
 });
 
-Then('el sistema bloquea la calificación del organizador sobre su propio evento', function () {
+Then('el sistema bloquea la calificación por conflicto de interés', function () {
   return 'pending';
 });
 
-Then('la calificación promedio del evento se refleja en el perfil del organizador', function () {
+Then('el sistema muestra el promedio de calificación de sus eventos en su perfil', function () {
   return 'pending';
 });
 
-Then('el sistema actualiza la calificación existente en lugar de crear una nueva', function () {
+Then('el sistema actualiza la calificación existente en lugar de crear una nueva entrada', function () {
   return 'pending';
 });
 
-Then('el promedio global del evento se actualiza después de la nueva calificación', function () {
+Then('el promedio global del evento se actualiza inmediatamente en la interfaz', function () {
   return 'pending';
 });
 
-Then('el evento muestra el mensaje Aún sin calificaciones', function () {
+Then('el sistema muestra el mensaje Aún sin calificaciones para ese evento', function () {
   return 'pending';
 });
