@@ -1,22 +1,46 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-Given('que el organizador tiene sesión activa', function () {
+Given('el usuario no es organizador', function () {
   return 'pending';
 });
 
-Given('que el usuario no está autenticado', function () {
+Given('existe un evento publicado', function () {
   return 'pending';
 });
 
-Given('que existe un evento creado por el organizador', function () {
+Given('el organizador tenía sesión activa', function () {
   return 'pending';
 });
 
-Given('que existe un evento creado por otro organizador', function () {
+Given('la sesión del organizador ha expirado', function () {
   return 'pending';
 });
 
-Given('que el evento original ya no existe', function () {
+Given('el organizador tiene sesión activa', function () {
+  return 'pending';
+});
+
+Given('existe un evento creado por el organizador', function () {
+  return 'pending';
+});
+
+Given('existe un evento creado por otro organizador', function () {
+  return 'pending';
+});
+
+Given('existe un evento creado por el organizador con asistentes y tokens generados', function () {
+  return 'pending';
+});
+
+Given('el evento duplicado se ha creado en borrador', function () {
+  return 'pending';
+});
+
+Given('el evento original no existe', function () {
+  return 'pending';
+});
+
+When('el usuario intenta duplicar el evento', function () {
   return 'pending';
 });
 
@@ -24,42 +48,50 @@ When('el organizador selecciona la opción de duplicar el evento', function () {
   return 'pending';
 });
 
-When('un asistente intenta duplicar el evento', function () {
+When('el organizador intenta guardar el evento duplicado sin fecha ni horario', function () {
   return 'pending';
 });
 
-When('el organizador intenta duplicar un evento de otro usuario', function () {
+When('el organizador intenta guardar el evento duplicado sin capacidad máxima', function () {
   return 'pending';
 });
 
-When('el organizador completa la información nueva del evento duplicado', function () {
+Then('el sistema no muestra la opción de duplicar', function () {
   return 'pending';
 });
 
-Then('el sistema crea un nuevo evento en estado borrador', function () {
+Then('el sistema redirige al inicio de sesión', function () {
   return 'pending';
 });
 
-Then('el sistema muestra el formulario con los datos del evento copiados', function () {
+Then('el sistema bloquea la duplicación del evento', function () {
   return 'pending';
 });
 
-Then('el sistema exige definir nueva fecha, horario y capacidad', function () {
+Then('el sistema crea un nuevo evento con los datos básicos copiados', function () {
   return 'pending';
 });
 
-Then('el sistema muestra un mensaje de éxito al guardar el evento duplicado', function () {
+Then('el sistema no copia asistentes ni tokens al nuevo evento', function () {
   return 'pending';
 });
 
-Then('el sistema niega la acción y muestra un mensaje de acceso no autorizado', function () {
+Then('el nuevo evento queda en estado borrador', function () {
   return 'pending';
 });
 
-Then('el sistema indica que el evento no está disponible para duplicarse', function () {
+Then('el sistema muestra un error indicando que falta fecha y horario', function () {
   return 'pending';
 });
 
-Then('el nuevo evento aparece en el panel del organizador', function () {
+Then('el sistema muestra un error indicando que falta la capacidad máxima', function () {
+  return 'pending';
+});
+
+Then('el sistema muestra la vista previa del evento duplicado antes de guardar', function () {
+  return 'pending';
+});
+
+Then('el sistema muestra un mensaje de error indicando que el evento original no existe', function () {
   return 'pending';
 });
