@@ -1,41 +1,110 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-Given('Joey compra dos boletos válidos', function () { return 'pending'; });
-When('se generan los QR correspondientes', function () { return 'pending'; });
-Then('cada boleto tiene un QR único', function () { return 'pending'; });
+Given('Joey compra dos boletos válidos para el mismo evento', function () {
+  return 'pending';
+});
 
-Given('un boleto pagado con QR generado', function () { return 'pending'; });
-When('Rachel intenta leer el contenido del QR manualmente', function () { return 'pending'; });
-Then('el contenido no es legible en texto claro', function () { return 'pending'; });
+Given('existe un boleto pagado con QR generado', function () {
+  return 'pending';
+});
 
-Given('un boleto con QR generado', function () { return 'pending'; });
-When('el sistema desencripta el QR', function () { return 'pending'; });
-Then('encuentra el ticketID correspondiente', function () { return 'pending'; });
+Given('existe un boleto asociado a un QR cifrado', function () {
+  return 'pending';
+});
 
-Given('Monica tiene un boleto pendiente de pago', function () { return 'pending'; });
-When('intenta obtener su QR', function () { return 'pending'; });
-Then('el sistema no genera el QR', function () { return 'pending'; });
+Given('Monica tiene un boleto con pago pendiente', function () {
+  return 'pending';
+});
 
-Given('Joey escanea el QR en la entrada por primera vez', function () { return 'pending'; });
-When('intenta escanearlo otra vez', function () { return 'pending'; });
-Then('el sistema lo rechaza', function () { return 'pending'; });
+Given('existe un QR válido asociado a un boleto', function () {
+  return 'pending';
+});
 
-Given('Ross escanea su boleto', function () { return 'pending'; });
-When('el sistema detecta que ya fue usado', function () { return 'pending'; });
-Then('marca el QR como inválido', function () { return 'pending'; });
+Given('el QR ya fue usado previamente', function () {
+  return 'pending';
+});
 
-Given('un QR válido es escaneado', function () { return 'pending'; });
-When('se valida el acceso', function () { return 'pending'; });
-Then('el sistema registra la validación en bitácora', function () { return 'pending'; });
+Given('existe un lector de QR integrado en la app de Arcana', function () {
+  return 'pending';
+});
 
-Given('Chandler altera manualmente su QR', function () { return 'pending'; });
-When('intenta validarlo en el acceso', function () { return 'pending'; });
-Then('el sistema lo bloquea', function () { return 'pending'; });
+Given('Monica tiene un boleto pagado visible en su cuenta', function () {
+  return 'pending';
+});
 
-Given('un QR válido', function () { return 'pending'; });
-When('se escanea con la app oficial de Arcana', function () { return 'pending'; });
-Then('se valida correctamente', function () { return 'pending'; });
+When('se generan los QR para los boletos de Joey', function () {
+  return 'pending';
+});
 
-Given('Monica tiene un boleto pagado', function () { return 'pending'; });
-When('abre Mis Boletos', function () { return 'pending'; });
-Then('su QR cifrado es visible', function () { return 'pending'; });
+When('Rachel intenta leer manualmente el contenido del QR', function () {
+  return 'pending';
+});
+
+When('el sistema desencripta el contenido del QR', function () {
+  return 'pending';
+});
+
+When('Monica intenta obtener el QR de su boleto', function () {
+  return 'pending';
+});
+
+When('Joey escanea su QR en la entrada por primera vez', function () {
+  return 'pending';
+});
+
+When('Joey intenta escanear el mismo QR por segunda vez', function () {
+  return 'pending';
+});
+
+When('el personal del evento escanea el QR con la app de Arcana', function () {
+  return 'pending';
+});
+
+When('Chandler altera la imagen del QR y la vuelve a subir', function () {
+  return 'pending';
+});
+
+When('Monica abre la sección Mis boletos en su perfil', function () {
+  return 'pending';
+});
+
+Then('cada boleto tiene un QR distinto', function () {
+  return 'pending';
+});
+
+Then('el contenido del QR no es legible en texto claro', function () {
+  return 'pending';
+});
+
+Then('el sistema encuentra el identificador único del boleto correcto', function () {
+  return 'pending';
+});
+
+Then('el sistema no genera el QR para el boleto pendiente', function () {
+  return 'pending';
+});
+
+Then('el sistema autoriza el acceso al evento', function () {
+  return 'pending';
+});
+
+Then('el sistema rechaza el acceso por reutilización de QR', function () {
+  return 'pending';
+});
+
+Then('el sistema registra el escaneo en la bitácora de seguridad', function () {
+  return 'pending';
+});
+
+Then('el sistema bloquea el QR manipulado', function () {
+  return 'pending';
+});
+
+Then('la app de Arcana valida correctamente el QR', function () {
+  return 'pending';
+});
+
+Then('el QR cifrado del boleto de Monica es visible en pantalla', function () {
+  return 'pending';
+});
+
