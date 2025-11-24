@@ -1,77 +1,45 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-Given('el usuario está en la pantalla de registro', function () {
+Given('el organizador tiene una cuenta activa', function () {
   return 'pending';
 });
 
-Given('el usuario ya se registró con Google', function () {
+Given('accede a su perfil', function () {
   return 'pending';
 });
 
-Given('el usuario tiene eventos marcados como favoritos', function () {
+Given('el organizador accede a su perfil', function () {
   return 'pending';
 });
 
-When('inicia sesión con su cuenta de Gmail', function () {
+When('sube un documento oficial válido', function () {
   return 'pending';
 });
 
-When('conecta su cuenta de Facebook', function () {
+When('sube un documento ilegible', function () {
   return 'pending';
 });
 
-When('usa su cuenta de X para autenticarse', function () {
+When('sube un documento falso', function () {
   return 'pending';
 });
 
-When('agrega Facebook como método adicional', function () {
+Then('el sistema valida el documento', function () {
   return 'pending';
 });
 
-When('se registra con Facebook y edita su nombre antes de confirmar', function () {
+Then('muestra un distintivo visual en el perfil', function () {
   return 'pending';
 });
 
-When('se registra con Google y sube una foto distinta a la de su cuenta', function () {
+Then('el sistema rechaza la verificación', function () {
   return 'pending';
 });
 
-When('se registra con X y acepta importar foto y nombre automáticamente', function () {
+Then('solicita un nuevo documento', function () {
   return 'pending';
 });
 
-When('se registra con Google y desactiva la opción de sincronizar contactos', function () {
-  return 'pending';
-});
-
-Then('se crea el perfil automáticamente con los datos de Google', function () {
-  return 'pending';
-});
-
-Then('se sincroniza su foto de perfil y se completa el registro', function () {
-  return 'pending';
-});
-
-Then('se importan sus datos básicos y se crea el perfil', function () {
-  return 'pending';
-});
-
-Then('ambos métodos quedan vinculados y se sincronizan los datos', function () {
-  return 'pending';
-});
-
-Then('el perfil se crea con el nombre personalizado', function () {
-  return 'pending';
-});
-
-Then('el perfil se crea con la foto personalizada', function () {
-  return 'pending';
-});
-
-Then('el perfil se crea con la foto y nombre de X', function () {
-  return 'pending';
-});
-
-Then('el perfil se crea sin importar contactos', function () {
+Then('notifica al organizador', function () {
   return 'pending';
 });
