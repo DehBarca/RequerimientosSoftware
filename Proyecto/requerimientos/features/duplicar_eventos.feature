@@ -61,3 +61,4 @@ Feature: Duplicar evento existente
     And el evento original fue eliminado o no existe en la base de datos
     When el organizador intenta duplicar ese evento inexistente desde un enlace guardado
     Then el sistema muestra un mensaje de error indicando que el evento original no está disponible
+
