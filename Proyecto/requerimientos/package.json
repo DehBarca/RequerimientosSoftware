@@ -1,0 +1,24 @@
+{
+  "name": "requerimientossoftware",
+  "version": "1.0.0",
+  "description": "Requerimientos de Software",
+  "main": "index.js",
+"scripts": {
+  "test": "cucumber-js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DehBarca/RequerimientosSoftware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DehBarca/RequerimientosSoftware/issues"
+  },
+  "homepage": "https://github.com/DehBarca/RequerimientosSoftware#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  }
+}
